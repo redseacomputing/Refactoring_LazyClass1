@@ -11,4 +11,8 @@ public class Postcode {
         return postcode;
     }
 
+    public String getPostcodeArea(){
+        return postcode.split(" ")[0];
+    }
+
 }
